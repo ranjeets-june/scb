@@ -1,0 +1,970 @@
+Date: Sun, 29 Jun 2025 03:03:10 +0000 (GMT)
+Message-ID: <1099162259.1297866.1751166190442@uklvapcon01a.gdc.standardchartered.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1297865_1618643664.1751166190441"
+
+------=_Part_1297865_1618643664.1751166190441
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>CIO Council Summary Content, Decisions and Actions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>CIO Council Summary Content, Decisions and Actions</h1>
+    <div class=3D"Section1">
+        <div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<p><strong>CIO Council</strong></p>
+<p><br></p>
+<div class=3D"sectionMacroRow">
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 82.=
+2994%;">
+<colgroup>
+<col style=3D"width: 11.2803%;">
+<col style=3D"width: 24.6367%;">
+<col style=3D"width: 30.9343%;">
+<col style=3D"width: 33.1488%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><strong>Date</strong></td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue" st=
+yle=3D"text-align: left;"><p title=3D"" align=3D"center"><strong>Item</stro=
+ng></p></td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue" st=
+yle=3D"text-align: left;"><p title=3D"" align=3D"center"><strong>Who</stron=
+g></p></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><strong>Actions/Decisions</strong></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-08" class=3D"date-past">08 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>IAM risk strategy</p>
+<p><a href=3D"https://confluence.global.standardchartered.com/download/atta=
+chments/2895639691/IAM%20Strategy%20and%20Plan%20Oct2023%20v2.pdf?version=
+=3D1&amp;modificationDate=3D1699526548000&amp;api=3Dv2" rel=3D"nofollow">IA=
+M Strategy and Plan Oct2023 v2.pdf</a></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Alvaro=
+ Garrido / Gareth Russell</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-08" class=3D"date-past">08 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Hadoop=
+ Upgrade - Key Updates&nbsp;</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd"><p>Sea=
+n Coppinger</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Update on date moves</p><p><spa=
+n style=3D"color: rgb(23,43,77);">We can expect a detailed broadcast from E=
+T-DT team on this in next few weeks. If there are any queries, we can discu=
+ss in our weekly Working Group meeting.</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-01" class=3D"date-past">01 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Non-Pr=
+od to Cloud</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Sham A=
+rora</td>
+<td colspan=3D"1" class=3D"confluenceTd">Agreement towards shutting <span s=
+tyle=3D"color: rgb(23,43,77);">down all Test / Dev environments on-prem</sp=
+an></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-01" class=3D"date-past">01 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Critical &amp; High Vulnerabilities Update</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Januar Wayong</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Productivity agenda (TTO MT)</p=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd">Guillermo Veiga / Ben Issa</td>
+<td colspan=3D"1" class=3D"confluenceTd">Kickoff informational update and A=
+ctions below</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Test strategy for Catalyst</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Thomas Dolenga / Bill Sun</p></=
+td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">AME Obsolescence</td>
+<td colspan=3D"1" class=3D"confluenceTd">Chris Tweed / Ananth Gopal</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Tech Simp 2.0</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben Issa</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">To inform the CIO's of the Tech Simp 2.0 plan and to invite CIOs and th=
+eir direct reports to come to the brainstorming session in November.</span>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider ed bjq azt bjr =
+bjs bjt bju bjv bjw bjx bjy bjz bka bkb bkc bkd bke bkf bkg bkh bki bkj bkk=
+ bkl bkm bkn bko bkp bkq bkr bks bkt bku bkv bkw">Project AI</span></span><=
+/td>
+<td class=3D"confluenceTd">Ben Issa</td>
+<td class=3D"confluenceTd">Kickoff informational update and Actions below</=
+td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-18" class=3D"date-past">18 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Technology Strategy 2025 - Q3 Upda=
+te</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben Issa</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-18" class=3D"date-past">18 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Catalyst Regulatory engagement<=
+/p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Steve Davidson / Emily Tan</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-04" class=3D"date-past">04 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">AI Security Update 2</td>
+<td colspan=3D"1" class=3D"confluenceTd">Aaron Brewer</td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://confluence.glob=
+al.standardchartered.com/download/attachments/2879301487/CIO%20council%20AI=
+%20deck%20and%20SACA%20handover%20V2.pptx?version=3D1&amp;modificationDate=
+=3D1695776229000&amp;api=3Dv2" rel=3D"nofollow" style=3D"text-align: left;"=
+>CIO council AI deck and SACA Handover V</a>2 Update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-04" class=3D"date-past">04 Oct 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">2023 CCH Readiness</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Thomas Dolenga</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-20" class=3D"date-past">20 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">AI Security Update 1</td>
+<td colspan=3D"1" class=3D"confluenceTd">Aaron Brewer</td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://confluence.glob=
+al.standardchartered.com/download/attachments/2879301487/CIO%20council%20AI=
+%20deck%20and%20SACA%20handover%20V2.pptx?version=3D1&amp;modificationDate=
+=3D1695776229000&amp;api=3Dv2" rel=3D"nofollow" style=3D"text-align: left;"=
+>CIO council AI deck and SACA Handover </a>1&nbsp;Update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-20" class=3D"date-past">20 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Catalyst checkpoint</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Brian O'Neill / Winnie Law / Steve Davidson</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: left;">Pri=
+ority for the CIOs:&nbsp; Ensuring dedicated application working groups now=
+ running.</p><p style=3D"text-align: left;">Request for CIOs to identify an=
+d gaps/issues in the apps.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-06" class=3D"date-past">06 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">The Structure of ADO</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben Issa/Januar Wayong</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: left;">Exp=
+lain the structure of ADO: how work is structured / broken down as per the =
+below points:</p>
+<ul style=3D"text-align: left;">
+<li>App teams not clear on scope of the app work =E2=80=93 i.e. what they n=
+eed to do, by when</li>
+<li><span>Where is backlog tracked for the App teams (all in ADO but this n=
+eeds explaining to CIOs)</span></li>
+</ul></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Global Tech Conference</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben Issa/Suzanne O'Connor/Mike Ray=
+nor</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Global Engineering Conference - Obtain buy-in from all CIOs on the conf=
+erence concept, value and funding proposal.</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">WTX risk</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: left;">Pra=
+shanth, Rekha / Loganathan, Senthil / Sugata Sarkar / Srinath Sripada / Pra=
+deep Panicker</p><p style=3D"text-align: left;"><br></p><span style=3D"colo=
+r: rgb(23,43,77);">Invited: Darrell Ryman &amp; Anthony Hogg</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">HackerRank assessment for GBS Indi=
+a</td>
+<td colspan=3D"1" class=3D"confluenceTd">Urvi Jobalia</td>
+<td colspan=3D"1" class=3D"confluenceTd">Approval required from CIOs</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-16" class=3D"date-past">16 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">EBC Agenda</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Mark Ellis</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-16" class=3D"date-past">16 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Status update on AWS Cloud certification program and way forward</span>=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Senthil Loganathan</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-27" class=3D"date-past">27 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Strategic Sourcing RFP&nbsp;</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Ritchie Macintyre / Ken McHugo</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: left;">Pur=
+pose to go through standard terms and service levels being asked of the sup=
+pliers.</p><p style=3D"text-align: left;">Ken has shared these with the CIO=
+s.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-19" class=3D"date-past">19 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">10 must-dos as pre-release production deployment</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ani Paul</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-19" class=3D"date-past">19 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">TTO F2F Action Items</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">All</td>
+<td colspan=3D"1" class=3D"confluenceTd">Informational update</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-12" class=3D"date-past">12 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">SCB Watford proposal</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Sham Arora / Frank Schur / Hermant Rijhumal</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Agreement from CIOs on presented o=
+ptions for Watford DC</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-12" class=3D"date-past">12 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Microsoft Azure - 3yr agreement</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Sham Arora </span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77=
+);">Briefing note to the CIOs with a request to highlight any concerns.</sp=
+an></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"CIOCouncilSummaryContent,DecisionsandActions-ActionItems">Action =
+Items</h2>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 144=
+1.73px;">
+<colgroup>
+<col style=3D"width: 45.8281px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 323.812px;">
+<col style=3D"width: 64.0625px;">
+<col style=3D"width: 128.109px;">
+<col style=3D"width: 144.812px;">
+<col style=3D"width: 128.109px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 255.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Ref. #</strong></p></=
+td>
+<td class=3D"highlight-#ffebe6 confluenceTd" colspan=3D"1" data-highlight-c=
+olour=3D"#ffebe6" style=3D"text-align: left;"><strong title=3D"">Priority</=
+strong></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Action description</s=
+trong></p></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Raised By</strong></p=
+></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Date raised</strong><=
+/p></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Action owner</strong>=
+</p></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Due date</strong></p>=
+</td>
+<td class=3D"highlight-#ffebe6 confluenceTd" colspan=3D"1" data-highlight-c=
+olour=3D"#ffebe6" style=3D"text-align: left;"><strong title=3D"">Status</st=
+rong></td>
+<td class=3D"highlight-#ffebe6 confluenceTd" data-highlight-colour=3D"#ffeb=
+e6" style=3D"text-align: left;"><p title=3D""><strong>Follow-up Notes</stro=
+ng></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">13</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">All CIO=E2=80=99s to develop a DR =
+playbook</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-07-12" class=3D"date-past">12 Jul 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">All CIOs</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-02" class=3D"date-past">02 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current conf-macro o=
+utput-inline" style=3D"text-decoration: none;">CLO<span class=3D"status-mac=
+ro aui-lozenge aui-lozenge-success">COMPLETE</span>SED</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">14</td=
+>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Assump=
+tions in B&amp;M wrt<span>&nbsp;</span><strong>segregation of duties</stron=
+g><span>&nbsp;</span>are the same as Catalyst policies - review the current=
+ policy and the new constructs between Dev and Prod</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Anshu<=
+/td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-16" class=3D"date-past">16 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Ben</t=
+d>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-20" class=3D"date-past">20 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current conf-macro o=
+utput-inline" style=3D"text-decoration: none;">IN<span class=3D"status-macr=
+o aui-lozenge aui-lozenge-moved">IN PROGRESS</span> PROGRESS</span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Sham a=
+nd Ben to work with Januar &amp; team.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">15</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Brief CIOs on Korea</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-16" class=3D"date-past">16 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-macro o=
+utput-inline" style=3D"text-decoration: none;"><span class=3D"status-macro =
+aui-lozenge aui-lozenge-success">COMPLETE</span></span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">16</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben to share backlogs for each tea=
+m with the Council</td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-06" class=3D"date-past">06 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-macro o=
+utput-inline" style=3D"text-decoration: none;">CLOS<span class=3D"status-ma=
+cro aui-lozenge aui-lozenge-success">COMPLETE</span>ED</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>A takeaway from this week=E2=80=
+=99s council was for me (Ben) to share the backlogs for each team.</p><p><a=
+ class=3D"external-link" href=3D"https://dev.azure.com/sc-ado/CATALYSTQPR/_=
+dashboards/directory" rel=3D"nofollow">Dashboards - Overview (azure.com)</a=
+></p><p><span>The dashboards and work items are in the link above. Let me k=
+now if you would like to dig deeper.</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">17</td=
+>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">SACA a=
+utomation session -&nbsp; Suzanne to distribute session details once confir=
+med and CIOs to nominate attendees from their respective areas</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Ben</t=
+d>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Aaron =
+Brewer</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-09-13" class=3D"date-past">13 Sep 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">IN PROGRESS</=
+span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd"><s>20t=
+h Sept - CIO Council</s></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">18</td=
+>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;">MED</span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Global=
+ Engineering Conference - Obtain buy-in from all CIOs on the conference con=
+cept, value and funding proposal.</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Suzann=
+e</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">Suzann=
+e</td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-08-30" class=3D"date-past">30 Aug 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-macro o=
+utput-inline" style=3D"text-decoration: none;"><span class=3D"status-macro =
+aui-lozenge aui-lozenge-success">COMPLETE</span></span></p>
+</div></td>
+<td colspan=3D"1" style=3D"text-align: left;" class=3D"confluenceTd"><p>Agr=
+eement from Ben, Sean, Alvaro, Ani, Sham &amp; Anshu on Concept, Option 1: =
+Scale of conference and agreement on the nomination and funding of the engi=
+neers.</p><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">19</td>
+<td colspan=3D"1" class=3D"confluenceTd">High</td>
+<td colspan=3D"1" class=3D"confluenceTd">Project AI - <span style=3D"color:=
+ rgb(23,43,77);">Ben to coordinate a project team proposal with input from =
+the CIOs to take to the TTO MT.</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>&nbsp;<time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</tim=
+e>&nbsp;<br><br></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ben</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-03" class=3D"date-past">03 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-macro o=
+utput-inline" style=3D"text-decoration: none;"><span class=3D"status-macro =
+aui-lozenge aui-lozenge-success">COMPLETE</span></span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">20</td>
+<td colspan=3D"1" class=3D"confluenceTd">MED</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: left;">Pro=
+ductivity Agenda:</p>
+<ol>
+<li style=3D"text-align: left;">CIOs to provide names from each area to wor=
+k with Guillermo on Availability metrics.</li>
+<li style=3D"text-align: left;">MPS - need to see the outputs of the Hives =
+to determine where we can apply an MPS.</li>
+<li style=3D"text-align: left;">Sham to connect Mark Ellis with GV.</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Guillermo</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-10-25" class=3D"date-past">25 Oct 2023</time></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">All CIOs</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2023-11-10" class=3D"date-past">10 Nov 2023</time>&nbs=
+p;</p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">IN PROGRESS</=
+span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>CIOs to provide names from each area to work with Guillermo on Availabi=
+lity metrics.&nbsp; - <strong>COMPLETE</strong></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<p><strong>Global Extended CIO Council</strong></p>
+<p><br></p>
+<div class=3D"sectionMacroRow">
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 11.2803%;">
+<col style=3D"width: 24.6367%;">
+<col style=3D"width: 30.9343%;">
+<col style=3D"width: 33.1488%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><s=
+trong>Date</strong></td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue" st=
+yle=3D"text-align: left;"><p title=3D"" align=3D"center"><strong>Item</stro=
+ng></p></td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue" st=
+yle=3D"text-align: left;"><p title=3D"" align=3D"center"><strong>Who</stron=
+g></p></td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><s=
+trong>Actions/Decisions</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_1297865_1618643664.1751166190441--

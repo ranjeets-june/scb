@@ -1,0 +1,1073 @@
+Date: Sun, 29 Jun 2025 03:00:14 +0000 (GMT)
+Message-ID: <1859151976.1297864.1751166014605@uklvapcon01a.gdc.standardchartered.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1297863_225643503.1751166014605"
+
+------=_Part_1297863_225643503.1751166014605
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Architecture Roles &amp; Responsibilities</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Architecture Roles &amp; Responsibilities</h1>
+    <div class=3D"Section1">
+        <p style=3D"">With the rollout of ADO, there is a clear requirement=
+ to define roles/ personas which will perform relevant functions on the pla=
+tform (creator, reviewer, approver, read-only).</p>
+<p style=3D"">In line with this ask, the following roles are proposed as co=
+nsistent across the group.</p>
+<p style=3D"">It must be noted that definition of a role does not imply ded=
+icated individuals/ headcounts to perform the role, existing staff across T=
+SA/ delivery may be identified to perform the role in addition to their exi=
+sting roles.</p>
+<p style=3D"">The agreed responsibilities will be added to<span>&nbsp;</spa=
+n><u><span style=3D"color: rgb(0,0,255);"><a href=3D"https://confluence.glo=
+bal.standardchartered.com/display/ENTARCH/Architecture+Operating+Model" rel=
+=3D"nofollow" style=3D"">Architecture Operating Model</a></span></u><span s=
+tyle=3D"color: rgb(0,0,255);"><span>&nbsp;</span></span><span style=3D"colo=
+r: rgb(0,0,0);">and<span>&nbsp;</span><u><a href=3D"https://confluence.glob=
+al.standardchartered.com/display/SDF/ADO+RBAC" rel=3D"nofollow" style=3D"">=
+ADO RBAC</a></u></span></p>
+<p style=3D"">With the NFR plan uplift to meet the latest IT Resilience req=
+uirements (<a class=3D"external-link" href=3D"https://rv2.global.standardch=
+artered.com/govpoint-ui/#/govpoint/viewDocument/STD13022/" rel=3D"nofollow"=
+ style=3D"">GovPoint</a>), solution intents are to document the non-functio=
+nal design artefacts and to have resilience review conducted within the dom=
+ain teams. Hence the roles and responsibilities for IT Resilience reviews a=
+re modified to be done by the domain architects or chief architects. This w=
+as ratified in the EAWG meeting&nbsp;<a href=3D"https://confluence.global.s=
+tandardchartered.com/display/ENTARCH/EAWG+MOM+-+2025-04-17" rel=3D"nofollow=
+" style=3D"">EAWG MOM - 2025-04-17 - Enterprise Architecture - Confluence</=
+a>.</p>
+<p style=3D""><br></p>
+<p style=3D""><strong><span style=3D"color: rgb(0,0,0);">Ratified by Techno=
+logy Standards Board on 1-Aug-2023<span>&nbsp;</span></span></strong><span =
+style=3D"color: rgb(0,0,0);"><u><a href=3D"https://confluence.global.standa=
+rdchartered.com/display/ENTARCH/TSB+MoM+-+2023-08-01" rel=3D"nofollow" styl=
+e=3D"">TSB MoM - 2023-08-01</a></u></span></p>
+<h2 style=3D"" id=3D"ArchitectureRoles&amp;Responsibilities-ArchitectRoles&=
+amp;Responsibilities">Architect Roles &amp; Responsibilities</h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 1085.83px;"=
+>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 115.931px;">
+<col class=3D"" style=3D"width: 654.903px;">
+<col class=3D"" style=3D"width: 130.694px;">
+<col class=3D"" style=3D"width: 183.417px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p></p></th>
+<th style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTh"><p></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Domain Chief Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<ul>
+<li>Accountable for domain target architecture &amp; roadmap (transition) d=
+evelopment in line with investment strategy (factoring applications and und=
+erlying technology products), business and technology strategies and princi=
+ples</li>
+<li>Accountable for roadmap and application investment status reviews (at l=
+east annually)</li>
+<li>Perform fitness assessment of existing applications and Technology Prod=
+ucts at least annually</li>
+<li><span style=3D"color: rgb(0,0,0);">Ensure the Domain Technology Council=
+ (DTC) is operating effectively and efficiently</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Develop, publish and create awarenes=
+s of Domain Architecture Principles (if applicable)</span></li>
+<li><p>Proactively identify opportunity to create reusable Technology Patte=
+rns and ensure Technology Patterns are regularly reviewed</p></li>
+<li><span style=3D"color: rgb(0,0,0);">Escalate any other topics related to=
+ technology decision making guidance to Technology Standard Board (TSB) or =
+Solution Review Board (SRB)</span></li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Domain</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Head of Technology Strategy &amp; Architecture</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">
+<ul>
+<li>Defines baseline architecture, target architecture and roadmaps (transi=
+tion architecture) for responsible business areas</li>
+<li>Develop and maintain domain owned Technical Standard</li>
+<li>Develop and maintain domain owned Technology Patterns</li>
+<li><span style=3D"color: rgb(0,0,0);">Develop and maintain Domain Architec=
+ture Principles (if applicable)</span></li>
+<li>Evaluates Architecture Impact for initiatives owned by business area</l=
+i>
+<li>Chairs Architecture Review Forum and drives review of architecture arte=
+facts against domain roadmaps</li>
+<li>Identifies &amp; logs design dispensations and agrees resolution approa=
+ch as part of Solution reviews</li>
+<li>Facilitates Architecture approval via Domain Tech Council</li>
+<li>Responsible for Scoring reviewed solutions</li>
+<li>Participates in design vs build assessment organised by Solution Archit=
+ect and agrees dispensations and resolution approach</li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">1 or more business area (function) under a domain</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Chief Architect</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Country/ Cluster Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">
+<ul>
+<li>Develops baseline architecture, target architecture and roadmaps for re=
+sponsible country(s)</li>
+<li>Ensures group and domain Technical Standards are applied to any country=
+ specific solution</li>
+<li>Ensures country specific solutions apply established Technology Pattern=
+s and Architecture Principles</li>
+<li>Evaluates Architecture Impact for country initiatives</li>
+<li>Co-ordinates with Domain Architect to drive architecture approval via A=
+rchitecture Review Forum/ Domain Tech Council for any initiatives with arch=
+itecture impact</li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">1 or more countries</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Head of Technology Strategy &amp; Architecture</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Solution Architect (role part of Domain Architect function an=
+d may be subsumed by Domain Architect)</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">
+<ul>
+<li>Contributes to development of domain target architecture for a set of c=
+apabilities</li>
+<li>Conducts solution design reviews across a collection of capabilities ow=
+ned by the business area</li>
+<li>Collaborates with other solution architects to drive agreement on cross=
+-cutting solutions</li>
+<li>Co-ordinates with Domain Architect to ensure solutions align with wider=
+ domain strategy, technology &amp; architecture principles and patterns</li=
+>
+<li>Tracks design dispensations to resolution</li>
+<li>Conducts design vs build assessment with Technology Service Owner, Doma=
+in Architect &amp; Application Architect for applications undergoing signif=
+icant change, or at least annually; records dispensations and resolution ap=
+proach</li>
+<li>Tracks resolution of design vs build deviations as part of future resol=
+ution</li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">1 or more capabilities within a business area</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd"><p>Domain Architect</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Application Architect (role subsumed by Application Owner/ Te=
+chnology Service Owner)</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">
+<ul>
+<li>Responsible for detailed documentation and maintenance of application a=
+rchitecture</li>
+<li>Ensures that the design &amp; implementation are aligned to best practi=
+ces, standards and principles</li>
+<li>Identifies impact of technology standard lifecycle changes to supported=
+ applications and raises application specific risks to Technology Service O=
+wner and Solution/ Domain Architects for resolution</li>
+<li>Co-ordinates with solution architect for review of significant applicat=
+ion changes (application architecture review)</li>
+<li>Self evaluates updates to application architecture for minor/ non-archi=
+tectural impact changes</li>
+<li>Responsible for resolution of design vs build dispensations as noted by=
+ Technology Service Owner &amp; Solution Architect during regular reviews</=
+li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">1 or more applications</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(23,43,77);">Technology Service O=
+wner</span></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Infrastructure Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">
+<ul>
+<li>Responsible for detailed design of infrastructure (hardware/ OS etc.) t=
+o support the compute and storage demands of an application</li>
+<li>Conducts infrastructure sizing and fitness assessment for requestor app=
+lications to apply the best-fit pattern</li>
+<li>Ensures that the design &amp; implementation are aligned to best practi=
+ces, standards and principles</li>
+<li>Identifies impact of technology standard lifecycle changes to supported=
+ infrastructure and ensures availability of invest solution to application =
+teams</li>
+<li>Develops and maintains infrastructure patterns and enforces their adopt=
+ion during provisioning and set up</li>
+<li>Tracks resolution of design vs build deviations as part of future resol=
+ution</li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">1 or more capabilities</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Chief Architect (ET)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style=3D""><br></p>
+<h2 style=3D"" id=3D"ArchitectureRoles&amp;Responsibilities-SolutionIntent&=
+amp;ApplicationArchitectureRoleMappinginADO">Solution Intent &amp; Applicat=
+ion Architecture Role Mapping in ADO</h2>
+<h3 style=3D"" id=3D"ArchitectureRoles&amp;Responsibilities-Rolestobecreate=
+dinESDLC/ADOforArchitecturereview">Roles to be created in ESDLC/ ADO for Ar=
+chitecture review</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 636.736px;"=
+>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Roles</th>
+<th style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTh">Role in ESDLC</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Persona in ADO</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Level of granularity for role to be defined</th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 115.514px;">
+<col class=3D"" style=3D"width: 143.278px;">
+<col class=3D"" style=3D"width: 113.736px;">
+<col class=3D"" style=3D"width: 263.319px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Domain Chief Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Chief Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+DomainArchitect</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">DomainArchitect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Solution Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Solution Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">DomainArchitect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Country/ Cluster Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Country/ Cluster Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">CountryArchitect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Country Cluster (for In-Country Solutions)</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Application Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Application Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Application Owner<span>&nbsp;</span>:question:</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Application<span>&nbsp;</span>:question:</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Data Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"4" class=3D"=
+confluenceTd"><p>Not Applicable, as sub-councils are in turn Domain Archite=
+cts for their area</p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Data Sub-Council</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Cloud Architect</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Cloud Sub-Council</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Security Architect (SACA)</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">SACA Sub-Council</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">IT Resilience Reviewer</td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,0,0);">DomainArchitect</span><=
+/p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"1" class=3D"=
+confluenceTd">Domain/ Business Area</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 style=3D"" id=3D"ArchitectureRoles&amp;Responsibilities-RACIbyActivity"=
+>RACI by Activity</h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Artefact/ Activity</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Conditions</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Responsible</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Accountable</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Consulted</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Informed</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Control</th>
+</tr>
+</thead>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Artefact/ Activity</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Conditions</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Responsible</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Accountable</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Consulted</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Informed</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Control</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6"><strong>ADO:<span>&nbsp=
+;</span></strong>Create Architecture Impact Assessment</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">In all the cases</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Delivery team or Produc=
+t Owner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Product Owner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Domain Architect</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6"><p title=3D"">Domain Ar=
+chitect</p><p title=3D"">Product Owner</p></td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6"><strong t=
+itle=3D"">ADO:<span>&nbsp;</span></strong>Signoff-1 for Architecture Impact=
+ Assessment</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">In all th=
+e cases</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Product O=
+wner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Product O=
+wner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Delivery =
+team</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Domain Ar=
+chitect</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Must be c=
+ompleted before Domain or Country Architect review</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6"><strong>ADO:<span>&nbsp=
+;</span></strong>Signoff-2 Architecture Impact Assessment</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">If In Country Initiativ=
+e =3D No</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Domain Architect</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Product Owner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Delivery team</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Delivery team</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#fffae6">Must be completed durin=
+g Discovery before Inception or start of build</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6"><strong t=
+itle=3D"">ADO:<span>&nbsp;</span></strong>Signoff-2 Architecture Impact Ass=
+essment</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">If In Cou=
+ntry Initiative =3D Yes</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Country A=
+rchitect</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Product O=
+wner</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Delivery =
+team</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Delivery =
+team</td>
+<td class=3D"highlight-#fffae6 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#fffae6">Must be c=
+ompleted during Discovery before Inception or start of build</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><strong>ADO:<span>&nbsp=
+;</span></strong>Create &amp; Upload Solution Intent : Conceptual Design</t=
+d>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><p title=3D"">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</p></td=
+>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Delivery team</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Delivery team</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Domain Architect (Arch =
+Governance)</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><br></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Approve Solution Intent=
+ : Conceptual Design</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><p title=3D"">If Archit=
+ecture Impact Assessment (of Initiative) =3D "Material Impact"</p></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><p>Domain Technology Co=
+uncil</p><p>(Conditionally) Solution Review Board</p></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Domain Chief Architect<=
+/td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Domain Architect, Deliv=
+ery team</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><p>Domain Architect, De=
+livery Team</p></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><strong>ADO:<span>&nbsp=
+;</span></strong>Upload Approval &amp; Signoff Solution Intent : Conceptual=
+ Design</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">If Architecture Impact =
+Assessment (of Initiative) =3D "Material Impact"</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><p title=3D"">Domain Ar=
+chitect or Domain Chief Architect</p></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Domain Architect</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef"><br></td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Product Owner, Delivery=
+ Team</td>
+<td class=3D"highlight-#e3fcef confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#e3fcef">Must be completed durin=
+g Discovery before Inception or start of build</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><strong>ADO:<span>&nbsp=
+;</span></strong>Create &amp; Upload Solution Intent : Detailed Design</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><p title=3D"">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</p></td=
+>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff">Delivery team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff">Delivery team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff">Domain Architect (Arch =
+Governance)</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><br></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Approve S=
+olution Intent : Detailed Design</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Architecture Review Forum</p><p title=3D"">(Conditionally) Domain Tec=
+hnology Council</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Domain Ar=
+chitect or Domain Chief Architect (Arch Governance)</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Product Owner</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><p><strong>ADO:<span>&n=
+bsp;</span></strong>Upload Approval &amp; Conditionally Signoff Solution In=
+tent : Detailed Design</p><p>&amp; Identify additional reviewers</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><p title=3D"">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</p><p t=
+itle=3D"">AND</p><p title=3D"">If Architecture Significance of Change =3D "=
+Significant" for Security, Data, Cloud or Resilience</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><p>Domain Architect or =
+Domain Chief Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff">Domain Architect</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><br></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><p>Product Owner</p><p>=
+SACA, Data,&nbsp;Cloud Reviewers&nbsp;</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong>A=
+DO:<span>&nbsp;</span></strong>Complete Data Review and log dispensations</=
+td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">If Architecture Significance of Change =3D "Significant" for Data</p>=
+</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Data Arch=
+itect</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong>A=
+DO:<span>&nbsp;</span></strong>Complete SACA Review &amp; verify MBSR and l=
+og dispensations</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">If Architecture Significance of Change =3D "Significant" for Security=
+</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Security =
+Architect</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong>A=
+DO:<span>&nbsp;</span></strong>Complete Cloud Review and log dispensations<=
+/td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">If Archit=
+ecture Significance of Change =3D "Significant" for Cloud</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Cloud Arc=
+hitect</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong>A=
+DO:<span>&nbsp;</span></strong>Complete Resilience Review and log dispensat=
+ions</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">If Archit=
+ecture Significance of Change =3D "Significant" for Resilience</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p><span =
+style=3D"color: rgb(0,0,0);">Domain Architect or Domain Chief Architect</sp=
+an></p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+</tr>
+</tbody>
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong t=
+itle=3D"">ADO:&nbsp;</strong>Create Solution Score</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect or Domain Chief Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect or Domain Chief Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Delivery =
+Team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Product O=
+wner</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Must be c=
+ompleted as part of SI detailed design signoff</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><strong t=
+itle=3D"">ADO:<span>&nbsp;</span></strong>Upload Approval &amp; Signoff Sol=
+ution Intent : Detailed Design</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">If Architecture Impact Assessment (of Initiative)&nbsp;=3D "Material =
+Impact"</p><p title=3D"">AND</p><p title=3D"">If Sub-Council review complet=
+ed or not applicable<span>&nbsp;</span></p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><p title=
+=3D"">Domain Architect or Domain Chief Architect</p></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Domain Ar=
+chitect</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff"><br></td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Product O=
+wner, Delivery Team</td>
+<td class=3D"highlight-#deebff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#deebff">Must be c=
+ompleted during Inception before start of build</td>
+</tr>
+<tr class=3D"">
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff"><strong>A=
+DO</strong>: Record Design Deviations/ Dispensations</td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff">If Archit=
+ecture Impact Assessment (of Initiative)&nbsp;=3D "Material Impact"</td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff"><p title=
+=3D"">Domain Architect or Domain Chief Architect, or Sub-Council reviewers<=
+/p></td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff">Domain Ar=
+chitect</td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff">Delivery =
+team</td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff">Product O=
+wner, Delivery Team</td>
+<td class=3D"highlight-#eae6ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"1" data-highlight-colour=3D"#eae6ff">While SI =
+is not fully approved</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"7" class=3D"=
+confluenceTd"><p><strong>Note</strong>:</p>
+<ul>
+<li>For solutions with no Security, Data, Cloud and Resilience impacts, the=
+ detailed design may be directly approved</li>
+<li>Therefore, for any initiatives with Architecture Impact =3D "Material",=
+ Solution intent: Detailed Design must be either "Conditionally Approved" o=
+r "Approved" or "Approved with Dispensations" for build to start, and "Appr=
+oved" or "Approved with Dispensations" for testing to start</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 style=3D"" id=3D"ArchitectureRoles&amp;Responsibilities-RACI">RACI</h1>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 602.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 168.167px;">
+<col class=3D"" style=3D"width: 189.406px;">
+<col class=3D"" style=3D"width: 243.76px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<br></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<br></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<br></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Impact Assessment Functional Questions like EU AI Act</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+C</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+R</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Technical Design Questions like&nbsp; Impacted Business Services</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"ArchitectureRoles&amp;Responsibilities-OpenQuestions">Open Questi=
+ons</h2>
+<ol>
+<li>Neil stated that all Solution Architects must be in TSA and TSA should =
+review SI and not produce them - producers need to sit in CIO area.=20
+<ol>
+<li>Confirmed with Brendan this is is not a formal agreement, but a preferr=
+ed direction - the R&amp;R has been revised accordingly.</li>
+</ol></li>
+</ol>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_1297863_225643503.1751166014605--
